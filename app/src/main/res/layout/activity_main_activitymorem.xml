@@ -12,6 +12,22 @@
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="377dp"
+            android:layout_height="97dp"
+            android:background="#45424242"
+            android:gravity="center"
+            android:text="MONSTROS"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.005" />
+
         <ImageButton
             android:id="@+id/buttonm1"
             android:layout_width="213dp"
@@ -28,7 +44,7 @@
             android:layout_width="213dp"
             android:layout_height="286dp"
             android:layout_marginTop="320dp"
-            android:background="@drawable/amajorupset"
+            android:background="@drawable/accelsynchron"
             app:layout_constraintEnd_toEndOf="@+id/buttonm1"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/buttonm1"
@@ -67,21 +83,90 @@
             app:layout_constraintStart_toStartOf="@+id/buttonm4"
             app:layout_constraintTop_toTopOf="@+id/buttonm4" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="377dp"
-            android:layout_height="97dp"
-            android:background="#45424242"
-            android:gravity="center"
-            android:text="MONSTROS"
-            android:textColor="#FFFFFF"
-            android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.47"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.005" />
+        <ImageButton
+            android:id="@+id/buttonm6"
+            android:layout_width="213dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/drolllockbird"
+            app:layout_constraintEnd_toEndOf="@+id/buttonm5"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonm5"
+            app:layout_constraintTop_toTopOf="@+id/buttonm5" />
+
+        <ImageButton
+            android:id="@+id/buttonm7"
+            android:layout_width="213dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/elementalheroneosalius"
+            app:layout_constraintEnd_toEndOf="@+id/buttonm6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonm6"
+            app:layout_constraintTop_toTopOf="@+id/buttonm6" />
+
+        <ImageButton
+            android:id="@+id/buttonm8"
+            android:layout_width="213dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="328dp"
+            android:background="@drawable/elementalheroocean"
+            app:layout_constraintEnd_toEndOf="@+id/buttonm7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonm7"
+            app:layout_constraintTop_toTopOf="@+id/buttonm7" />
+
+        <ImageButton
+        android:id="@+id/buttonm9"
+        android:layout_width="213dp"
+        android:layout_height="286dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/elementalherosparkman"
+        app:layout_constraintEnd_toEndOf="@+id/buttonm8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonm8"
+        app:layout_constraintTop_toTopOf="@+id/buttonm8" />
+
+        <ImageButton
+            android:id="@+id/buttonm10"
+            android:layout_width="213dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/mentalheroneobubbleman"
+            app:layout_constraintEnd_toEndOf="@+id/buttonm9"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="@+id/buttonm9"
+            app:layout_constraintTop_toTopOf="@+id/buttonm9" />
+
+        <ImageButton
+            android:id="@+id/buttonm11"
+            android:layout_width="213dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/relinquished"
+            app:layout_constraintEnd_toEndOf="@+id/buttonm10"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonm10"
+            app:layout_constraintTop_toTopOf="@+id/buttonm10" />
+
+        <ImageButton
+            android:id="@+id/buttonm12"
+            android:layout_width="213dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/talherorampartblaster"
+            app:layout_constraintEnd_toEndOf="@+id/buttonm11"
+            app:layout_constraintHorizontal_bias="0.224"
+            app:layout_constraintStart_toStartOf="@+id/buttonm11"
+            app:layout_constraintTop_toTopOf="@+id/buttonm11" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="320dp"
+            app:layout_constraintEnd_toEndOf="@+id/buttonm12"
+            app:layout_constraintHorizontal_bias="0.224"
+            app:layout_constraintStart_toStartOf="@+id/buttonm12"
+            app:layout_constraintTop_toTopOf="@+id/buttonm12" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

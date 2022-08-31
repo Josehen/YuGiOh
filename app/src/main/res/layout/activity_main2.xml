@@ -45,13 +45,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginEnd="13dp">
 
                 <ImageButton
                     android:id="@+id/buttonm1"
                     android:layout_width="130dp"
                     android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/blueeyesewitedragon" />
 
@@ -104,13 +106,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginEnd="13dp">
 
                 <ImageButton
                     android:id="@+id/buttonma1"
                     android:layout_width="130dp"
                     android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/_7" />
 
@@ -162,13 +166,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginEnd="13dp">
 
                 <ImageButton
                     android:id="@+id/buttonar1"
                     android:layout_width="130dp"
                     android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/amajorupset" />
 
@@ -220,13 +226,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginEnd="13dp">
 
                 <ImageButton
                     android:id="@+id/buttonm"
                     android:layout_width="130dp"
                     android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/monstros" />
 
