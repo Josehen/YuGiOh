@@ -7,84 +7,105 @@
     android:background="@drawable/download"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
-        <ImageButton
-            android:id="@+id/buttonar1"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="128dp"
-            android:background="@drawable/amajorupset"
-            app:layout_constraintEnd_toEndOf="@+id/textView3"
-            app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="@+id/textView3"
-            app:layout_constraintTop_toTopOf="@+id/textView3" />
-
-        <ImageButton
-            android:id="@+id/buttonar2"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="320dp"
-            android:background="@drawable/antimagicprism"
-            app:layout_constraintEnd_toEndOf="@+id/buttonar1"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/buttonar1"
-            app:layout_constraintTop_toTopOf="@+id/buttonar1" />
-
-        <ImageButton
-            android:id="@+id/buttonar3"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="328dp"
-            android:background="@drawable/backupsoldier"
-            app:layout_constraintEnd_toEndOf="@+id/buttonar2"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/buttonar2"
-            app:layout_constraintTop_toTopOf="@+id/buttonar2" />
-
-        <ImageButton
-            android:id="@+id/buttonar4"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="320dp"
-            android:background="@drawable/ninjitsuartoffreezing"
-            app:layout_constraintEnd_toEndOf="@+id/buttonar3"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/buttonar3"
-            app:layout_constraintTop_toTopOf="@+id/buttonar3" />
-
-        <ImageButton
-            android:id="@+id/buttonar5"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="320dp"
-            android:background="@drawable/dusttornado"
-            app:layout_constraintEnd_toEndOf="@+id/buttonar4"
-            app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="@+id/buttonar4"
-            app:layout_constraintTop_toTopOf="@+id/buttonar4" />
-
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="377dp"
+            android:layout_width="match_parent"
             android:layout_height="97dp"
-            android:background="#45424242"
+            android:layout_marginTop="20dp"
+            android:background="#00424242"
             android:gravity="center"
             android:text="ARMADILHAS"
             android:textColor="#FFFFFF"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.47"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.005" />
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/buttonar1"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/amajorupset"/>
+
+        <ImageButton
+            android:id="@+id/buttonar2"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/antimagicprism"/>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageButton
+            android:id="@+id/buttonar3"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/backupsoldier"/>
+
+        <ImageButton
+            android:id="@+id/buttonar4"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/ninjitsuartoffreezing"/>
+
+        <ImageButton
+            android:id="@+id/buttonar5"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/dusttornado"/>
+
+        <ImageButton
+            android:id="@+id/buttonar6"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/battleguardhowling"/>
+        <ImageButton
+            android:id="@+id/buttonar7"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/brutalpotion"/>
+        <ImageButton
+            android:id="@+id/buttonar8"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/mirrorforce"/>
+        <ImageButton
+            android:id="@+id/buttonar9"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/paleozoicdinomischus"/>
+        <ImageButton
+            android:id="@+id/buttonar10"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/skilldrain"/>
+        <ImageButton
+            android:id="@+id/buttonar11"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/solemnjudgmen"/>
+        <ImageButton
+            android:id="@+id/buttonar12"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/therecanbeonlyone"/>
+
+
+    </LinearLayout>
 
 
 </ScrollView>

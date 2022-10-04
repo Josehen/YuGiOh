@@ -7,84 +7,105 @@
     android:background="@drawable/download"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
-        <ImageButton
-            android:id="@+id/buttonma1"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="128dp"
-            android:background="@drawable/_7"
-            app:layout_constraintEnd_toEndOf="@+id/textView3"
-            app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="@+id/textView3"
-            app:layout_constraintTop_toTopOf="@+id/textView3" />
-
-        <ImageButton
-            android:id="@+id/buttonma2"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="320dp"
-            android:background="@drawable/calledbythegrave"
-            app:layout_constraintEnd_toEndOf="@+id/buttonma1"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/buttonma1"
-            app:layout_constraintTop_toTopOf="@+id/buttonma1" />
-
-        <ImageButton
-            android:id="@+id/buttonma3"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="328dp"
-            android:background="@drawable/demiseoftheland"
-            app:layout_constraintEnd_toEndOf="@+id/buttonma2"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/buttonma2"
-            app:layout_constraintTop_toTopOf="@+id/buttonma2" />
-
-        <ImageButton
-            android:id="@+id/buttonma4"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="320dp"
-            android:background="@drawable/enemycontroller"
-            app:layout_constraintEnd_toEndOf="@+id/buttonma3"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/buttonma3"
-            app:layout_constraintTop_toTopOf="@+id/buttonma3" />
-
-        <ImageButton
-            android:id="@+id/buttonma5"
-            android:layout_width="213dp"
-            android:layout_height="286dp"
-            android:layout_marginTop="320dp"
-            android:background="@drawable/galaxycyclone"
-            app:layout_constraintEnd_toEndOf="@+id/buttonma4"
-            app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="@+id/buttonma4"
-            app:layout_constraintTop_toTopOf="@+id/buttonma4" />
-
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="377dp"
+            android:layout_width="match_parent"
             android:layout_height="97dp"
-            android:background="#45424242"
+            android:layout_marginTop="20dp"
+            android:background="#00424242"
             android:gravity="center"
             android:text="MAGIAS"
             android:textColor="#FFFFFF"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.47"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.005" />
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/buttonma1"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/_7"/>
+
+        <ImageButton
+            android:id="@+id/buttonma2"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/calledbythegrave"/>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageButton
+            android:id="@+id/buttonma3"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/demiseoftheland"/>
+
+        <ImageButton
+            android:id="@+id/buttonma4"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/enemycontroller"/>
+
+        <ImageButton
+            android:id="@+id/buttonma5"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/galaxycyclone"/>
+
+        <ImageButton
+            android:id="@+id/buttonma6"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/mysticmine"/>
+        <ImageButton
+            android:id="@+id/buttonma7"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/swordsofrevealinglight"/>
+        <ImageButton
+            android:id="@+id/buttonma8"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/teleport"/>
+        <ImageButton
+            android:id="@+id/buttonma9"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/themonarchsstormforth"/>
+        <ImageButton
+            android:id="@+id/buttonma10"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/thunderdragonfusion"/>
+        <ImageButton
+            android:id="@+id/buttonma11"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/timepassage"/>
+        <ImageButton
+            android:id="@+id/buttonma12"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/tornado"/>
+
+
+    </LinearLayout>
 
 
 </ScrollView>

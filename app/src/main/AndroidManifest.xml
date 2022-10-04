@@ -14,6 +14,69 @@
         android:theme="@style/Theme.YuGiOh"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityma12"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityma11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityma10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityma9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityma8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityma7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityma6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitym12"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitym11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitym10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitym9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitym8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitym7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitym6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityar12"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityar11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityar10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityar9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityar8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityar7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityar6"
+            android:exported="false" />
+        <activity
             android:name=".MainActivitymorear"
             android:exported="false" />
         <activity

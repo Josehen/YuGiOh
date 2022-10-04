@@ -33,163 +33,163 @@ class MainActivity2 : AppCompatActivity() {
 
         buttonm1.setOnClickListener{
 
-            IrParaTela1()
+            IrParaTelam1()
         }
         buttonm2.setOnClickListener{
 
-            IrParaTela2()
+            IrParaTelam2()
         }
         buttonm3.setOnClickListener{
 
-            IrParaTela3()
+            IrParaTelam3()
         }
         buttonm4.setOnClickListener{
 
-            IrParaTela4()
+            IrParaTelam4()
         }
         buttonm5.setOnClickListener{
 
-            IrParaTela5()
+            IrParaTelam5()
         }
         buttonma1.setOnClickListener{
 
-            IrParaTela6()
+            IrParaTelama1()
         }
         buttonma2.setOnClickListener{
 
-            IrParaTela7()
+            IrParaTelama2()
         }
         buttonma3.setOnClickListener{
 
-            IrParaTela8()
+            IrParaTelama3()
         }
         buttonma4.setOnClickListener{
 
-            IrParaTela9()
+            IrParaTelama4()
         }
         buttonma5.setOnClickListener{
 
-            IrParaTela10()
+            IrParaTelama5()
         }
         buttonar1.setOnClickListener{
 
-            IrParaTela11()
+            IrParaTelaar1()
         }
         buttonar2.setOnClickListener{
 
-            IrParaTela12()
+            IrParaTelaar2()
         }
         buttonar3.setOnClickListener{
 
-            IrParaTela13()
+            IrParaTelaar3()
         }
         buttonar4.setOnClickListener{
 
-            IrParaTela14()
+            IrParaTelaar4()
         }
         buttonar5.setOnClickListener{
 
-            IrParaTela15()
+            IrParaTelaar5()
         }
         buttonm.setOnClickListener{
 
-            IrParaTela16()
+            IrParaTelamorem()
         }
         buttonma.setOnClickListener{
 
-            IrParaTela17()
+            IrParaTelamorema()
         }
         buttonar.setOnClickListener{
 
-            IrParaTela18()
+            IrParaTelamorear()
         }
     }
-    private fun IrParaTela1() {
+    private fun IrParaTelam1() {
 
         val mainActivity2 = Intent(this, MainActivitym1::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela2() {
+    private fun IrParaTelam2() {
 
         val mainActivity2 = Intent(this, MainActivitym2::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela3() {
+    private fun IrParaTelam3() {
 
         val mainActivity2 = Intent(this, MainActivitym3::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela4() {
+    private fun IrParaTelam4() {
 
         val mainActivity2 = Intent(this, MainActivitym4::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela5() {
+    private fun IrParaTelam5() {
 
         val mainActivity2 = Intent(this, MainActivitym5::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela6() {
+    private fun IrParaTelama1() {
 
         val mainActivity2 = Intent(this, MainActivityma1::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela7() {
+    private fun IrParaTelama2() {
 
         val mainActivity2 = Intent(this, MainActivityma2::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela8() {
+    private fun IrParaTelama3() {
 
         val mainActivity2 = Intent(this, MainActivityma3::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela9() {
+    private fun IrParaTelama4() {
 
         val mainActivity2 = Intent(this, MainActivityma4::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela10() {
+    private fun IrParaTelama5() {
 
         val mainActivity2 = Intent(this, MainActivityma5::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela11() {
+    private fun IrParaTelaar1() {
 
         val mainActivity2 = Intent(this, MainActivityar1::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela12() {
+    private fun IrParaTelaar2() {
 
         val mainActivity2 = Intent(this, MainActivityar2::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela13() {
+    private fun IrParaTelaar3() {
 
         val mainActivity2 = Intent(this, MainActivityar3::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela14() {
+    private fun IrParaTelaar4() {
 
         val mainActivity2 = Intent(this, MainActivityar4::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela15() {
+    private fun IrParaTelaar5() {
 
         val mainActivity2 = Intent(this, MainActivityar5::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela16() {
+    private fun IrParaTelamorem() {
 
         val mainActivity2 = Intent(this, MainActivitymorem::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela17() {
+    private fun IrParaTelamorema() {
 
         val mainActivity2 = Intent(this, MainActivitymorema::class.java)
         startActivity(mainActivity2)
     }
-    private fun IrParaTela18() {
+    private fun IrParaTelamorear() {
 
         val mainActivity2 = Intent(this, MainActivitymorear::class.java)
         startActivity(mainActivity2)
