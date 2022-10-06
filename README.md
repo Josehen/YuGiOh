@@ -12,6 +12,7 @@ cujo impacto é	Diminuir as possibilidades de batalhas.
 uma solução de sucesso deveria	O meu software tem como base uma ferramenta de auxílio informacional totalmente fácil e intuitiva de ser usada. Com o objetivo de : -Desenvolver um software que auxilia tanto para quem tem dificuldade e para quem só que se orientar ; -Ajudar jogadores a se organizarem facilmente.
 
 3. Contexto de negócio
+
 ●	Número de pessoas envolvidas na conclusão da tarefa? Isso está mudando?
 1 pessoa , ainda não
 
